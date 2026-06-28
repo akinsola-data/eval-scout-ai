@@ -8,6 +8,14 @@ pinned: false
 license: mit
 ---
 
+---
+### 🛠️ ENGINEERING SNAPSHOT (FOR CTOs / LEAD MLEs)
+*   **Problem:** Deterministic vs. Probabilistic Hallucination Detection.
+*   **Core Innovation:** Dual-mode engine combining **TF-IDF Cosine Similarity Matrix (<0.15)** with **Regex-based Numerical Entity Verification**.
+*   **Statistical Moat:** Implements formal grounding checks to catch numerical contradictions (e.g., £124 vs £1,245) that BLEU/ROUGE metrics miss.
+*   **Deployment:** Containerized MLOps Pipeline (Docker, Port 7860, USER 1000) with <45ms local evaluation latency.
+*   **Stack:** Python 3.12, FastAPI, Pydantic, Scikit-Learn, Streamlit.
+---
 # EvalScout AI — LLM-as-a-Judge & Hallucination Benchmark Engine
 
 > **One-line pitch:** An enterprise MLOps evaluation framework deployed via Docker & Streamlit that utilizes an 'LLM-as-a-Judge' pipeline to autonomously audit conversational AI chatbots for hallucination, financial accuracy, and data groundedness.
