@@ -9,7 +9,7 @@ license: mit
 ---
 
 ---
-### 🛠️ ENGINEERING SNAPSHOT (FOR CTOs / LEAD MLEs)
+###  ENGINEERING SNAPSHOT (FOR CTOs / LEAD MLEs)
 *   **Problem:** Deterministic vs. Probabilistic Hallucination Detection.
 *   **Core Innovation:** Dual-mode engine combining **TF-IDF Cosine Similarity Matrix (<0.15)** with **Regex-based Numerical Entity Verification**.
 *   **Statistical Moat:** Implements formal grounding checks to catch numerical contradictions (e.g., £124 vs £1,245) that BLEU/ROUGE metrics miss.
@@ -22,7 +22,7 @@ license: mit
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 
 As financial institutions and mobile money platforms rapidly scale conversational AI across customer support and financial health coaching, a severe operational vulnerability has emerged: **Conversational Hallucination**. 
 
@@ -41,7 +41,7 @@ Traditional evaluation metrics (like BLEU or ROUGE) fail completely in financial
 
 ---
 
-## 🏗️ Project Architecture & Skills Stack
+##  Project Architecture & Skills Stack
 
 This repository demonstrates the complete MLOps evaluation lifecycle from raw transcript parsing to executive audit presentation:
 
@@ -56,7 +56,7 @@ This repository demonstrates the complete MLOps evaluation lifecycle from raw tr
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 eval-scout-ai/
@@ -78,7 +78,7 @@ eval-scout-ai/
 
 ---
 
-## 📊 The 3 Hero Charts & Deep Domain Commentary
+##  The 3 Hero Charts & Deep Domain Commentary
 
 ### 1. LLM-as-a-Judge Telemetry: Hallucination vs. Fully Grounded Outputs by Threat Domain
 ```text
@@ -110,15 +110,15 @@ eval-scout-ai/
 
 ---
 
-## 💡 The "So What?" (Actionable Fintech Implications)
+##  The "So What?" (Actionable Fintech Implications)
 
 Translating MLOps evaluation metrics into high-level balance sheet protection is what defines an elite AI Architect. Here is what the numbers mean for fintech executives and banking general counsel:
 
-### 🤖 For Conversational AI & Chatbot Teams (`Cleo AI` proxies)
+###  For Conversational AI & Chatbot Teams (`Cleo AI` proxies)
 - **Preventing Balance Sheet Shock:** When an AI assistant coaches a user on their financial health, hallucinating an extra £1,000 in available spend destroys customer trust and triggers massive support churn. Integrating EvalScout AI into the deployment pipeline ensures that every prompt iteration is autonomously audited for numerical contradictions prior to public release.
 - **Automated Annotation Pipelines:** The LLM-as-a-Judge architecture automates the manual toil of human annotation teams, instantly grading thousands of daily chatbot interactions and providing clear, actionable judge critiques (`Judge Critique: Chatbot generated unsupported numerical entities...`).
 
-### 🌊 For Mobile Money Support Automation (`Wave` proxies)
+###  For Mobile Money Support Automation (`Wave` proxies)
 - **Eliminating Regulatory Fines:** In emerging markets, if a support bot tells a customer that cross-border transfers are completely free when the statutory fee is 1%, the platform faces immediate regulatory fines for consumer deception. EvalScout AI enforces rigid groundedness guardrails to guarantee that support bots adhere perfectly to documented fee structures.
 - **Air-Gapped Telemetry Security:** Deploying the evaluation engine via unprivileged Docker containers (`USER 1000`) guarantees that sensitive customer support transcripts are parsed entirely in an air-gapped, sandboxed memory space with zero risk of external data leakage.
 
@@ -127,7 +127,7 @@ Translating MLOps evaluation metrics into high-level balance sheet protection is
 
 ---
 
-## 🛠️ Installation & Cloud Deployment Guide
+##  Installation & Cloud Deployment Guide
 
 ### Option 1: Running via Docker (Recommended MLOps Method)
 1. Ensure Docker Desktop is running on your machine.
